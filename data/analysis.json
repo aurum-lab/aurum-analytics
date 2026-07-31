@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T22:29:18Z",
+ "generated_at": "2026-07-31T23:36:54Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
   "price": 4043.21,
@@ -8,16 +8,16 @@
   "change_pct": -1.47
  },
  "analysis": {
-  "price": 4042.76,
+  "price": 4042.67,
   "trend_d1": "bearish",
   "rsi14_d1": 46.2,
   "macd_d1": {
-   "macd": -14.423,
-   "signal": -20.093,
-   "hist": 5.669
+   "macd": -14.431,
+   "signal": -20.094,
+   "hist": 5.663
   },
-  "ema20": 4064.0,
-  "ema50": 4134.89,
+  "ema20": 4063.99,
+  "ema50": 4134.88,
   "ema200": 4405.74,
   "patterns": [
    {
@@ -25,7 +25,7 @@
     "direction": "bearish",
     "candle": "2026-08-01",
     "strength": 2,
-    "price": 4042.76
+    "price": 4042.67
    },
    {
     "name": "Evening Star",
@@ -150,7 +150,7 @@
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4115.81, dengan risiko-reward yang layak.",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022,6 dan resistance 4115,81\n* Peluang limit order: BUY_LIMIT di 4022,6 atau SELL_LIMIT di 4115,81, dengan peringatan risiko.",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -433,7 +433,7 @@
     "open": 4044.91865,
     "high": 4044.91865,
     "low": 4042.03719,
-    "close": 4042.75826
+    "close": 4042.66743
    }
   ],
   "4h": [
@@ -855,7 +855,7 @@
     "open": 4044.91865,
     "high": 4044.91865,
     "low": 4042.03719,
-    "close": 4042.75826
+    "close": 4042.66743
    }
   ]
  }
