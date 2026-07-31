@@ -1,25 +1,32 @@
 {
- "generated_at": "2026-07-31T20:02:36Z",
+ "generated_at": "2026-07-31T21:17:08Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4049.915,
+  "price": 4043.21,
   "prev_close": 4103.48,
-  "change": -53.56,
-  "change_pct": -1.31
+  "change": -60.27,
+  "change_pct": -1.47
  },
  "analysis": {
-  "price": 4050.88,
+  "price": 4042.67,
   "trend_d1": "bearish",
-  "rsi14_d1": 47.0,
+  "rsi14_d1": 46.2,
   "macd_d1": {
-   "macd": -13.531,
-   "signal": -21.42,
-   "hist": 7.889
+   "macd": -14.431,
+   "signal": -20.094,
+   "hist": 5.663
   },
-  "ema20": 4066.77,
-  "ema50": 4138.87,
-  "ema200": 4408.22,
+  "ema20": 4063.99,
+  "ema50": 4134.88,
+  "ema200": 4405.74,
   "patterns": [
+   {
+    "name": "Three Black Crows",
+    "direction": "bearish",
+    "candle": "2026-08-01",
+    "strength": 2,
+    "price": 4042.67
+   },
    {
     "name": "Evening Star",
     "direction": "bearish",
@@ -47,13 +54,6 @@
     "candle": "2026-07-25",
     "strength": 1,
     "price": 4056.01
-   },
-   {
-    "name": "Doji",
-    "direction": "neutral",
-    "candle": "2026-07-24",
-    "strength": 1,
-    "price": 4053.47
    }
   ],
   "levels": {
@@ -87,10 +87,11 @@
    ],
    "resistance": [
     {
-     "price": 4114.59,
-     "touches": 3,
+     "price": 4115.81,
+     "touches": 4,
      "prices": [
       4116.42784,
+      4119.46447,
       4104.81533,
       4122.52133
      ]
@@ -105,11 +106,13 @@
      ]
     },
     {
-     "price": 4273.88,
-     "touches": 2,
+     "price": 4371.76,
+     "touches": 4,
      "prices": [
-      4268.69498,
-      4279.06735
+      4376.2737,
+      4359.95814,
+      4383.61801,
+      4367.19364
      ]
     }
    ]
@@ -118,9 +121,9 @@
    {
     "side": "BUY_LIMIT",
     "entry": 4022.6,
-    "sl": 3947.27,
-    "tp": 4135.59,
-    "tp2": 4210.92,
+    "sl": 3947.65,
+    "tp": 4135.03,
+    "tp2": 4209.98,
     "rr": 1.5,
     "confidence": 70,
     "reason": "Support 4022.6 (3x) + harga di zona permintaan; Pola bullish: Three White Soldiers; MACD histogram positif"
@@ -128,37 +131,30 @@
    {
     "side": "BUY_LIMIT",
     "entry": 3989.88,
-    "sl": 3914.55,
-    "tp": 4102.87,
-    "tp2": 4178.2,
+    "sl": 3914.93,
+    "tp": 4102.31,
+    "tp2": 4177.26,
     "rr": 1.5,
     "confidence": 70,
     "reason": "Support 3989.88 (2x) + harga di zona permintaan; Pola bullish: Three White Soldiers; MACD histogram positif"
    },
    {
     "side": "SELL_LIMIT",
-    "entry": 4114.59,
-    "sl": 4189.92,
-    "tp": 4001.6,
-    "tp2": 3926.27,
+    "entry": 4115.81,
+    "sl": 4190.76,
+    "tp": 4003.38,
+    "tp2": 3928.43,
     "rr": 1.5,
     "confidence": 70,
-    "reason": "Resistance 4114.59 (3x) + harga di zona supply; Pola bearish: Evening Star; Trend D1: bearish"
+    "reason": "Resistance 4115.81 (4x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; Trend D1: bearish"
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4114.59\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4114.59, dengan risiko-reward yang layak.",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4115.81, dengan risiko-reward yang layak.",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
   "1day": [
-   {
-    "datetime": "2026-06-22",
-    "open": 4156.54721,
-    "high": 4216.38487,
-    "low": 4135.46633,
-    "close": 4191.78368
-   },
    {
     "datetime": "2026-06-23",
     "open": 4192.03092,
@@ -430,17 +426,17 @@
     "open": 4103.37557,
     "high": 4112.01118,
     "low": 4021.07041,
-    "close": 4050.87623
+    "close": 4045.25141
+   },
+   {
+    "datetime": "2026-08-01",
+    "open": 4044.91865,
+    "high": 4044.91865,
+    "low": 4042.03719,
+    "close": 4042.6688
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-22 07:00:00",
-    "open": 4077.84891,
-    "high": 4100.88169,
-    "low": 4075.31176,
-    "close": 4096.42423
-   },
    {
     "datetime": "2026-07-22 11:00:00",
     "open": 4095.64207,
@@ -852,7 +848,14 @@
     "open": 4043.37403,
     "high": 4055.64343,
     "low": 4041.71045,
-    "close": 4050.87623
+    "close": 4045.25141
+   },
+   {
+    "datetime": "2026-08-01 07:00:00",
+    "open": 4044.91865,
+    "high": 4044.91865,
+    "low": 4042.03719,
+    "close": 4042.6688
    }
   ]
  }
