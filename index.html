@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XAU/USD Analyzer — Candlestick & Chart Patterns + AI</title>
+<meta name="description" content="Analisa XAU/USD otomatis: candlestick patterns, chart patterns, konfirmasi indikator, peluang limit order, dan ringkasan AI.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <h1>🥇 XAU/USD Analyzer</h1>
+  <p class="sub">Candlestick Patterns + Pola Grafik + Konfirmasi Indikator + Limit Order + AI</p>
+  <p id="last-updated" class="updated">Memuat data…</p>
+</header>
+
+<main>
+  <div class="grid">
+    <section class="card" id="spot-card">
+      <h2>💰 Spot (GoldAPI)</h2>
+      <div id="spot"><span class="muted">memuat…</span></div>
+    </section>
+
+    <section class="card" id="trend-card">
+      <h2>📊 Trend & Indikator (D1)</h2>
+      <div id="indicators"><span class="muted">memuat…</span></div>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>🕯️ Candlestick Patterns (10 candle terakhir)</h2>
+    <div id="patterns"><span class="muted">memuat…</span></div>
+  </section>
+
+  <section class="card">
+    <h2>📐 Level Support / Resistance</h2>
+    <div id="levels"><span class="muted">memuat…</span></div>
+  </section>
+
+  <section class="card">
+    <h2>📈 Chart
+      <span class="tf-btns">
+        <button data-tf="1day" class="active">D1</button>
+        <button data-tf="4h">4H</button>
+      </span>
+    </h2>
+    <div id="chart-container"></div>
+  </section>
+
+  <section class="card" id="opp-card">
+    <h2>🎯 Peluang Limit Order</h2>
+    <div id="opportunities"><span class="muted">memuat…</span></div>
+  </section>
+
+  <section class="card" id="ai-card">
+    <h2>🤖 Ringkasan AI <span id="ai-model" class="badge"></span></h2>
+    <div id="ai-summary"><span class="muted">memuat…</span></div>
+  </section>
+</main>
+
+<footer>
+  <p>Data: Twelve Data + GoldAPI · Diperbarui otomatis tiap 30 menit via GitHub Actions · AI: GitHub Models (gratis)</p>
+  <p class="disclaimer">⚠️ Analisa teknis otomatis — <b>bukan saran finansial</b>. Trading emas berisiko tinggi.</p>
+</footer>
+
+<script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
