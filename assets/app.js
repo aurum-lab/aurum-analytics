@@ -104,6 +104,7 @@
     if (!window.LightweightCharts) { container.innerHTML = '<span class="muted">Library chart gagal dimuat.</span>'; return; }
 
     chart = LightweightCharts.createChart(container, {
+      autoSize: true,
       height: window.innerWidth <= 480 ? 300 : 420,
       layout: { background: { color: "#161b22" }, textColor: "#8b949e" },
       grid: { vertLines: { color: "#21262d" }, horzLines: { color: "#21262d" } },

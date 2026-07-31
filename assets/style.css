@@ -17,6 +17,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 html { -webkit-text-size-adjust: 100%; }
+html, body { overflow-x: hidden; }
 
 body {
   background: var(--bg);
@@ -32,6 +33,8 @@ body {
 header {
   text-align: center;
   padding: 32px 16px 18px;
+  max-width: 440px;
+  margin: 0 auto;
 }
 header h1 {
   font-size: 1.3rem;
@@ -51,7 +54,7 @@ header h1 {
 
 /* ---------- layout ---------- */
 main {
-  max-width: 480px;
+  max-width: 440px;
   margin: 0 auto;
   padding: 0 14px 32px;
   display: flex;
@@ -121,7 +124,7 @@ main {
 /* ---------- tables ---------- */
 table {
   width: 100%;
-  min-width: 320px;
+  min-width: 280px;
   border-collapse: collapse;
   font-size: 0.82rem;
 }
@@ -170,6 +173,12 @@ tr:last-child td { border-bottom: none; }
   border-color: var(--text);
 }
 #chart-container { height: 300px; width: 100%; }
+
+@media (max-width: 380px) {
+  .card { padding: 13px; }
+  .price-big { font-size: 1.65rem; }
+  table { font-size: 0.76rem; }
+}
 
 /* ---------- AI ---------- */
 .ai-box {
