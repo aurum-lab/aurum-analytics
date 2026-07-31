@@ -8,7 +8,7 @@ Website analisa **XAU/USD** otomatis: candlestick patterns, pola grafik (support
 - 📐 **Pola grafik** — swing highs/lows → level support & resistance (clustering multi-touch)
 - 📊 **Konfirmasi indikator** — RSI(14), MACD, EMA20/50/200, ATR, trend filter
 - 🎯 **Peluang limit order** — BUY_LIMIT di support + konfirmasi bullish, SELL_LIMIT di resistance + konfirmasi bearish; filter R:R ≥ 1:2, skor confidence
-- 🤖 **AI summary** — ringkasan Bahasa Indonesia dari GitHub Models (gratis)
+- 🤖 **AI summary** — ringkasan Bahasa Indonesia dari **Groq + Llama 3.3** (gratis)
 - ⏱️ **Auto-update** — GitHub Actions tiap 30 menit
 
 ## 🚀 Cara Kerja
@@ -26,11 +26,13 @@ Website analisa **XAU/USD** otomatis: candlestick patterns, pola grafik (support
 |---|---|
 | `TWELVE_DATA_API_KEY` | twelvedata.com (free 800 req/hari) |
 | `GOLDAPI_API_KEY` | gold-api.com (free unlimited) |
-| `GH_MODELS_TOKEN` | GitHub token untuk GitHub Models (opsional — kalau kosong, AI summary dilewati) |
+| `GROQ_API_KEY` | console.groq.com (free, Llama 3.3 70B) |
+| `GH_MODELS_TOKEN` | Opsional — fallback GitHub Models |
 
 ```bash
 gh secret set TWELVE_DATA_API_KEY -R pmuhammadagus-byte/xau-analytics
 gh secret set GOLDAPI_API_KEY -R pmuhammadagus-byte/xau-analytics
+gh secret set GROQ_API_KEY -R pmuhammadagus-byte/xau-analytics
 gh secret set GH_MODELS_TOKEN -R pmuhammadagus-byte/xau-analytics
 ```
 

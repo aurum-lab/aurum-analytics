@@ -15,6 +15,7 @@ import urllib.parse
 
 TD_KEY = os.environ.get("TWELVE_DATA_API_KEY", "")
 GOLD_KEY = os.environ.get("GOLDAPI_API_KEY", "")
+GROQ_KEY = os.environ.get("GROQ_API_KEY", "")
 GH_TOKEN = os.environ.get("GH_MODELS_TOKEN", "")
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "analysis.json")
@@ -288,25 +289,43 @@ def make_opportunities(candles, patterns, levels, trend, rsi_val, macd_v, atr_v)
 
 # ---------------------------------------------------------------- AI
 def ai_summary(payload):
-    if not GH_TOKEN:
-        return None, None
     system = ("Kamu analis pasar emas. Jawab dalam Bahasa Indonesia, ringkas (maks 100 kata), "
               "pakai poin singkat: bias, level penting, dan apakah ada peluang limit order layak. "
               "Bukan saran finansial.")
     user = "Data XAU/USD:\n" + json.dumps(payload, ensure_ascii=False)[:4000]
-    for model in ("gpt-4o-mini", "meta-llama-3.3-70b-instruct", "gpt-4.1-mini"):
-        try:
-            body = json.dumps({"model": model, "temperature": 0.3, "max_tokens": 400,
-                               "messages": [{"role": "system", "content": system},
-                                            {"role": "user", "content": user}]}).encode()
-            req = urllib.request.Request(
-                "https://models.github.ai/inference/chat/completions", data=body,
-                headers={"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=60) as r:
-                resp = json.load(r)
-            return resp["choices"][0]["message"]["content"].strip(), model
-        except Exception:
-            continue
+
+    # 1) Groq (Llama) — primary
+    if GROQ_KEY:
+        for model in ("llama-3.3-70b-versatile", "llama-3.1-8b-instant"):
+            try:
+                body = json.dumps({"model": model, "temperature": 0.3, "max_tokens": 400,
+                                   "messages": [{"role": "system", "content": system},
+                                                {"role": "user", "content": user}]}).encode()
+                req = urllib.request.Request(
+                    "https://api.groq.com/openai/v1/chat/completions", data=body,
+                    headers={"Authorization": f"Bearer {GROQ_KEY}", "Content-Type": "application/json",
+                             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) xau-analytics/1.0"})
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    resp = json.load(r)
+                return resp["choices"][0]["message"]["content"].strip(), f"Groq {model}"
+            except Exception:
+                continue
+
+    # 2) GitHub Models — fallback
+    if GH_TOKEN:
+        for model in ("gpt-4o-mini", "meta-llama-3.3-70b-instruct", "gpt-4.1-mini"):
+            try:
+                body = json.dumps({"model": model, "temperature": 0.3, "max_tokens": 400,
+                                   "messages": [{"role": "system", "content": system},
+                                                {"role": "user", "content": user}]}).encode()
+                req = urllib.request.Request(
+                    "https://models.github.ai/inference/chat/completions", data=body,
+                    headers={"Authorization": f"Bearer {GH_TOKEN}", "Content-Type": "application/json"})
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    resp = json.load(r)
+                return resp["choices"][0]["message"]["content"].strip(), model
+            except Exception:
+                continue
     return None, None
 
 
