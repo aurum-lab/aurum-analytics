@@ -73,20 +73,20 @@
       el.innerHTML = '<span class="muted">Tidak ada peluang limit order layak saat ini (R:R &lt; 1:2 atau tanpa konfirmasi).</span>';
       return;
     }
-    el.innerHTML = `<table>
-      <tr><th>Side</th><th>Entry</th><th>SL</th><th>TP1</th><th>TP2</th><th>R:R</th><th>Confidence</th></tr>
-      ${opps.map(o => `
-        <tr>
-          <td><span class="tag ${tagClass(o.side === "BUY_LIMIT" ? "bullish" : "bearish")}">${o.side}</span></td>
-          <td>$${fmt(o.entry)}</td>
-          <td class="down">$${fmt(o.sl)}</td>
-          <td class="up">$${fmt(o.tp)}</td>
-          <td>$${fmt(o.tp2)}</td>
-          <td>1:${fmt(o.rr)}</td>
-          <td><b>${o.confidence}%</b></td>
-        </tr>
-        <tr><td colspan="7" class="muted" style="font-size:.78rem">${o.reason}</td></tr>`).join("")}
-    </table>`;
+    el.innerHTML = opps.map(o => `
+      <div class="opp">
+        <div class="opp-head">
+          <span class="tag ${tagClass(o.side === "BUY_LIMIT" ? "bullish" : "bearish")}">${o.side}</span>
+          <span class="opp-conf">Confidence <b>${o.confidence}%</b> · R:R 1:${fmt(o.rr)}</span>
+        </div>
+        <div class="opp-grid">
+          <div class="opp-item"><span class="label">Entry</span><span class="val">$${fmt(o.entry)}</span></div>
+          <div class="opp-item"><span class="label">SL</span><span class="val down">$${fmt(o.sl)}</span></div>
+          <div class="opp-item"><span class="label">TP1</span><span class="val up">$${fmt(o.tp)}</span></div>
+          <div class="opp-item"><span class="label">TP2</span><span class="val">$${fmt(o.tp2)}</span></div>
+        </div>
+        <div class="opp-reason">${o.reason}</div>
+      </div>`).join("");
   }
 
   function renderAI(ai, model) {
