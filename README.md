@@ -1,4 +1,4 @@
-# 🥇 XAU/USD Analyzer — GitHub Pages
+# 🥇 Aurum Analytics — XAU/USD Signal Website
 
 Website analisa **XAU/USD** otomatis: candlestick patterns, pola grafik (support/resistance), konfirmasi indikator (RSI, MACD, EMA), peluang **limit order**, dan ringkasan **AI gratis dari GitHub Models**.
 
