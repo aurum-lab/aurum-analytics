@@ -229,6 +229,24 @@ tr:last-child td { border-bottom: none; }
   .opp-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
 }
 
+/* ---------- feedback ---------- */
+.fb-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.fb-btn {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  color: var(--text);
+}
+.fb-btn:hover { border-color: var(--gold); }
+
 /* ---------- AI ---------- */
 .ai-box {
   background: #fafaf9;

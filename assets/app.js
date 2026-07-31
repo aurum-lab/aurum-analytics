@@ -92,8 +92,44 @@
   function renderAI(ai, model) {
     const el = $("ai-summary");
     $("ai-model").textContent = model || "";
-    if (!ai) { el.innerHTML = '<span class="muted">AI summary tidak tersedia (token GitHub Models belum di-set atau limit tercapai).</span>'; return; }
+    if (!ai) { el.innerHTML = '<span class="muted">AI summary tidak tersedia (token belum di-set atau limit tercapai).</span>'; return; }
     el.innerHTML = `<div class="ai-box">${ai.replace(/\n/g, "<br>")}</div>`;
+  }
+
+  /* ---------- feedback (biar AI belajar) ---------- */
+  let fbData = JSON.parse(localStorage.getItem("aurumFeedback") || "null");
+
+  function renderFBStatus() {
+    const el = $("fb-status");
+    if (!fbData) { el.textContent = "Belum ada feedback dari kamu."; return; }
+    el.textContent = `Feedback tersimpan: ${fbData.vote === "good" ? "✅ Bagus" : "❌ Jelek"} — ${new Date(fbData.ts).toLocaleString("id-ID")}`;
+  }
+
+  function saveFB(vote) {
+    fbData = { ts: new Date().toISOString(), vote, price: DATA?.analysis?.price || null };
+    localStorage.setItem("aurumFeedback", JSON.stringify(fbData));
+    renderFBStatus();
+  }
+
+  $("fb-good").addEventListener("click", () => saveFB("good"));
+  $("fb-bad").addEventListener("click", () => saveFB("bad"));
+  $("fb-send").addEventListener("click", () => {
+    if (!fbData) return alert("Klik ✅ atau ❌ dulu.");
+    const title = encodeURIComponent(`Feedback Aurum ${fbData.vote === "good" ? "✅" : "❌"} @ ${fbData.ts}`);
+    const body = encodeURIComponent(
+      `Vote: ${fbData.vote}\nWaktu: ${fbData.ts}\nHarga: ${fbData.price}\n\n(Tambahkan catatan opsional di sini)`
+    );
+    window.open(`https://github.com/aurum-lab/aurum-analytics/issues/new?title=${title}&body=${body}`, "_blank");
+  });
+
+  /* ---------- badge versi model Aurum ---------- */
+  async function loadModelBadge() {
+    try {
+      const r = await fetch("https://api.github.com/repos/aurum-lab/aurum-ai/releases/latest");
+      const d = await r.json();
+      const tag = d?.tag_name || "";
+      $("ai-model").textContent = tag ? "🧠 " + tag : "";
+    } catch (e) { /* ignore */ }
   }
 
   function renderChart() {

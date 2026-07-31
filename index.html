@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aurum Analytics — XAU/USD Signals &amp; AI Analysis</title>
 <meta name="description" content="Analisa XAU/USD otomatis: candlestick patterns, chart patterns, konfirmasi indikator, peluang limit order, dan ringkasan AI.">
-<link rel="stylesheet" href="assets/style.css?v=3">
+<link rel="stylesheet" href="assets/style.css?v=4">
 </head>
 <body>
 <header>
@@ -56,6 +56,17 @@
     <h2>Ringkasan AI <span id="ai-model" class="badge"></span></h2>
     <div id="ai-summary"><span class="muted">memuat…</span></div>
   </section>
+
+  <section class="card" id="feedback-card">
+    <h2>Feedback — Bantu Aurum Belajar</h2>
+    <div class="fb-row">
+      <span class="muted" style="font-size:.8rem">Analisa ini berguna?</span>
+      <button id="fb-good" class="fb-btn">✅ Bagus</button>
+      <button id="fb-bad" class="fb-btn">❌ Jelek</button>
+      <button id="fb-send" class="fb-btn ghost">📤 Kirim ke GitHub</button>
+    </div>
+    <div id="fb-status" class="muted" style="font-size:.72rem;margin-top:8px"></div>
+  </section>
 </main>
 
 <footer>
@@ -64,6 +75,6 @@
 </footer>
 
 <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
-<script src="assets/app.js?v=3"></script>
+<script src="assets/app.js?v=4"></script>
 </body>
 </html>

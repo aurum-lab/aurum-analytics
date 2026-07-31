@@ -19,6 +19,7 @@ GROQ_KEY = os.environ.get("GROQ_API_KEY", "")
 GH_TOKEN = os.environ.get("GH_MODELS_TOKEN", "")
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "analysis.json")
+HISTORY = os.path.join(os.path.dirname(__file__), "..", "data", "history.json")
 
 
 # ---------------------------------------------------------------- helpers
@@ -389,6 +390,35 @@ def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w") as f:
         json.dump(analysis, f, ensure_ascii=False, indent=1)
+
+    # ---------- HISTORY LOG (memori belajar AI) ----------
+    # Simpan rekor ringkas tiap siklus: harga, trend, indikator, pola, level, peluang.
+    # Data ini dipakai retrain mingguan → AI makin pinter dari data nyata.
+    try:
+        history = []
+        if os.path.exists(HISTORY):
+            with open(HISTORY) as f:
+                history = json.load(f)
+        record = {
+            "ts": analysis["generated_at"],
+            "price": round(price, 2),
+            "trend": trend,
+            "rsi": round(rsi_val, 1) if rsi_val else None,
+            "ema20": round(ema(closes, 20)[-1], 2),
+            "ema50": round(ema(closes, 50)[-1], 2),
+            "patterns": [p["name"] for p in patterns[:3]],
+            "support": [l["price"] for l in supports],
+            "resistance": [l["price"] for l in resistances],
+            "opportunities": [{"side": o["side"], "entry": o["entry"],
+                                "conf": o["confidence"]} for o in opps],
+        }
+        history.append(record)
+        history = history[-2000:]  # simpan maks 2000 rekor
+        with open(HISTORY, "w") as f:
+            json.dump(history, f, ensure_ascii=False, indent=1)
+    except Exception as e:
+        print(f"  ⚠ history log gagal: {e}")
+
     print(f"OK — price {price}, trend {trend}, RSI {rsi_val:.1f}, patterns {len(patterns)}, opps {len(opps)}, AI {ai_model or 'none'}")
 
 
