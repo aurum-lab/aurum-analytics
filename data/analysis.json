@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-31T10:43:28Z",
+ "generated_at": "2026-07-31T10:44:16Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4054.635,
+  "price": 4054.725,
   "prev_close": 4103.48,
-  "change": -48.84,
+  "change": -48.75,
   "change_pct": -1.19
  },
  "analysis": {
