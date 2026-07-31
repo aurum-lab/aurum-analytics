@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-07-31T10:44:16Z",
+ "generated_at": "2026-07-31T10:51:35Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4054.725,
+  "price": 4055.155,
   "prev_close": 4103.48,
-  "change": -48.75,
-  "change_pct": -1.19
+  "change": -48.32,
+  "change_pct": -1.18
  },
  "analysis": {
-  "price": 4053.53,
+  "price": 4055.88,
   "trend_d1": "bearish",
-  "rsi14_d1": 47.3,
+  "rsi14_d1": 47.5,
   "macd_d1": {
-   "macd": -13.32,
-   "signal": -21.378,
-   "hist": 8.058
+   "macd": -13.132,
+   "signal": -21.34,
+   "hist": 8.209
   },
-  "ema20": 4067.02,
-  "ema50": 4138.97,
-  "ema200": 4408.25,
+  "ema20": 4067.25,
+  "ema50": 4139.06,
+  "ema200": 4408.27,
   "patterns": [
    {
     "name": "Evening Star",
@@ -430,7 +430,7 @@
     "open": 4103.37557,
     "high": 4112.01118,
     "low": 4050.32851,
-    "close": 4053.52549
+    "close": 4055.88117
    }
   ],
   "4h": [
@@ -852,7 +852,7 @@
     "open": 4063.72802,
     "high": 4064.09033,
     "low": 4050.32851,
-    "close": 4053.52549
+    "close": 4055.88117
    }
   ]
  }
