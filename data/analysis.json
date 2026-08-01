@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-01T04:42:59Z",
+ "generated_at": "2026-08-01T07:19:39Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
   "price": 4043.21,
@@ -8,16 +8,16 @@
   "change_pct": -1.47
  },
  "analysis": {
-  "price": 4042.67,
+  "price": 4042.75,
   "trend_d1": "bearish",
   "rsi14_d1": 46.2,
   "macd_d1": {
-   "macd": -14.43,
-   "signal": -20.094,
-   "hist": 5.664
+   "macd": -14.424,
+   "signal": -20.093,
+   "hist": 5.669
   },
-  "ema20": 4063.99,
-  "ema50": 4134.88,
+  "ema20": 4064.0,
+  "ema50": 4134.89,
   "ema200": 4405.74,
   "patterns": [
    {
@@ -25,7 +25,7 @@
     "direction": "bearish",
     "candle": "2026-08-01",
     "strength": 2,
-    "price": 4042.67
+    "price": 4042.75
    },
    {
     "name": "Evening Star",
@@ -150,7 +150,7 @@
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4115.81, dengan peringatan bahwa keputusan investasi harus berdasarkan analisis mendalam.",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4115.81, dengan risiko-reward yang layak.",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -433,17 +433,10 @@
     "open": 4044.91865,
     "high": 4044.91865,
     "low": 4042.03719,
-    "close": 4042.67498
+    "close": 4042.75301
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-22 15:00:00",
-    "open": 4126.883,
-    "high": 4134.79429,
-    "low": 4109.14544,
-    "close": 4118.6392
-   },
    {
     "datetime": "2026-07-22 19:00:00",
     "open": 4118.61493,
@@ -855,7 +848,14 @@
     "open": 4042.69218,
     "high": 4042.87344,
     "low": 4042.62101,
-    "close": 4042.67498
+    "close": 4042.65577
+   },
+   {
+    "datetime": "2026-08-01 15:00:00",
+    "open": 4042.68559,
+    "high": 4042.86613,
+    "low": 4042.61906,
+    "close": 4042.75301
    }
   ]
  }
