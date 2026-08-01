@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-01T21:05:30Z",
+ "generated_at": "2026-08-01T22:10:05Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
   "price": 4043.21,
@@ -8,32 +8,18 @@
   "change_pct": -1.47
  },
  "analysis": {
-  "price": 4042.66,
+  "price": 4042.76,
   "trend_d1": "bearish",
   "rsi14_d1": 46.2,
   "macd_d1": {
-   "macd": -14.616,
-   "signal": -18.997,
-   "hist": 4.382
+   "macd": -14.608,
+   "signal": -18.996,
+   "hist": 4.388
   },
-  "ema20": 4061.96,
+  "ema20": 4061.97,
   "ema50": 4131.27,
   "ema200": 4401.67,
   "patterns": [
-   {
-    "name": "Doji",
-    "direction": "neutral",
-    "candle": "2026-08-02",
-    "strength": 1,
-    "price": 4042.66
-   },
-   {
-    "name": "Three Black Crows",
-    "direction": "bearish",
-    "candle": "2026-08-02",
-    "strength": 2,
-    "price": 4042.66
-   },
    {
     "name": "Three Black Crows",
     "direction": "bearish",
@@ -52,6 +38,20 @@
     "name": "Doji",
     "direction": "neutral",
     "candle": "2026-07-26",
+    "strength": 1,
+    "price": 4056.01
+   },
+   {
+    "name": "Three White Soldiers",
+    "direction": "bullish",
+    "candle": "2026-07-26",
+    "strength": 2,
+    "price": 4056.01
+   },
+   {
+    "name": "Marubozu",
+    "direction": "bullish",
+    "candle": "2026-07-25",
     "strength": 1,
     "price": 4056.01
    }
@@ -146,11 +146,11 @@
     "tp2": 3928.56,
     "rr": 1.5,
     "confidence": 70,
-    "reason": "Resistance 4115.81 (4x) + harga di zona supply; Pola bearish: Three Black Crows, Three Black Crows; Trend D1: bearish"
+    "reason": "Resistance 4115.81 (4x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; Trend D1: bearish"
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4115.81, dengan peringatan bahwa keputusan ini harus berdasarkan analisis lebih lanjut.",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4115.81, dengan risiko-reward yang layak.",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -431,9 +431,9 @@
    {
     "datetime": "2026-08-02",
     "open": 4042.67937,
-    "high": 4042.85863,
-    "low": 4042.61933,
-    "close": 4042.65707
+    "high": 4042.86123,
+    "low": 4042.61874,
+    "close": 4042.75751
    }
   ],
   "4h": [
@@ -853,9 +853,9 @@
    {
     "datetime": "2026-08-02 07:00:00",
     "open": 4042.67937,
-    "high": 4042.85863,
-    "low": 4042.61933,
-    "close": 4042.65707
+    "high": 4042.86123,
+    "low": 4042.61874,
+    "close": 4042.75751
    }
   ]
  }
