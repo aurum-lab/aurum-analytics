@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-02T17:36:36Z",
+ "generated_at": "2026-08-02T18:41:31Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
   "price": 4043.21,
@@ -8,18 +8,25 @@
   "change_pct": -1.47
  },
  "analysis": {
-  "price": 4042.75,
+  "price": 4042.65,
   "trend_d1": "bearish",
   "rsi14_d1": 46.2,
   "macd_d1": {
-   "macd": -14.609,
-   "signal": -18.996,
-   "hist": 4.387
+   "macd": -14.617,
+   "signal": -18.998,
+   "hist": 4.381
   },
-  "ema20": 4061.97,
+  "ema20": 4061.96,
   "ema50": 4131.27,
   "ema200": 4401.67,
   "patterns": [
+   {
+    "name": "Three Black Crows",
+    "direction": "bearish",
+    "candle": "2026-08-02",
+    "strength": 2,
+    "price": 4042.65
+   },
    {
     "name": "Three Black Crows",
     "direction": "bearish",
@@ -46,13 +53,6 @@
     "direction": "bullish",
     "candle": "2026-07-26",
     "strength": 2,
-    "price": 4056.01
-   },
-   {
-    "name": "Marubozu",
-    "direction": "bullish",
-    "candle": "2026-07-25",
-    "strength": 1,
     "price": 4056.01
    }
   ],
@@ -146,11 +146,11 @@
     "tp2": 3928.56,
     "rr": 1.5,
     "confidence": 70,
-    "reason": "Resistance 4115.81 (4x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; Trend D1: bearish"
+    "reason": "Resistance 4115.81 (4x) + harga di zona supply; Pola bearish: Three Black Crows, Three Black Crows; Trend D1: bearish"
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6 dan 3989.88, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 dan 3989.88, SELL_LIMIT di 4115.81",
+ "ai_summary": "Berikut adalah analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022,6 dan Resistance 4115,81\n* Peluang limit order: BUY_LIMIT di 4022,6 atau SELL_LIMIT di 4115,81, dengan peringatan bahwa keputusan investasi harus berdasarkan analisis pribadi.",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -431,9 +431,9 @@
    {
     "datetime": "2026-08-02",
     "open": 4042.67937,
-    "high": 4042.86123,
+    "high": 4042.87265,
     "low": 4042.61874,
-    "close": 4042.74761
+    "close": 4042.64843
    }
   ],
   "4h": [
@@ -853,9 +853,9 @@
    {
     "datetime": "2026-08-03 03:00:00",
     "open": 4042.67937,
-    "high": 4042.86115,
-    "low": 4042.61926,
-    "close": 4042.74761
+    "high": 4042.87265,
+    "low": 4042.61887,
+    "close": 4042.64843
    }
   ]
  }
