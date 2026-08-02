@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-02T12:14:34Z",
+ "generated_at": "2026-08-02T14:03:58Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
   "price": 4043.21,
@@ -8,13 +8,13 @@
   "change_pct": -1.47
  },
  "analysis": {
-  "price": 4042.76,
+  "price": 4042.75,
   "trend_d1": "bearish",
   "rsi14_d1": 46.2,
   "macd_d1": {
-   "macd": -14.608,
+   "macd": -14.609,
    "signal": -18.996,
-   "hist": 4.388
+   "hist": 4.387
   },
   "ema20": 4061.97,
   "ema50": 4131.27,
@@ -150,7 +150,7 @@
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6 dan 3989.88, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 dan 3989.88, SELL_LIMIT di 4115.81",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4115.81, dengan peringatan bahwa keputusan investasi harus berdasarkan analisis menyeluruh.",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -433,17 +433,10 @@
     "open": 4042.67937,
     "high": 4042.86123,
     "low": 4042.61874,
-    "close": 4042.75722
+    "close": 4042.74767
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-23 23:00:00",
-    "open": 4064.9536,
-    "high": 4066.5284,
-    "low": 4041.22045,
-    "close": 4051.55323
-   },
    {
     "datetime": "2026-07-24 03:00:00",
     "open": 4051.39477,
@@ -855,7 +848,14 @@
     "open": 4042.67937,
     "high": 4042.86121,
     "low": 4042.61874,
-    "close": 4042.75722
+    "close": 4042.74187
+   },
+   {
+    "datetime": "2026-08-02 23:00:00",
+    "open": 4042.67937,
+    "high": 4042.86121,
+    "low": 4042.61874,
+    "close": 4042.74767
    }
   ]
  }
