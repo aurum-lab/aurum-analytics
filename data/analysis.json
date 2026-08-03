@@ -1,31 +1,31 @@
 {
- "generated_at": "2026-08-03T20:38:47Z",
+ "generated_at": "2026-08-03T21:49:11Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4057.555,
+  "price": 4055.21,
   "prev_close": 4043.21,
-  "change": 14.34,
-  "change_pct": 0.35
+  "change": 12,
+  "change_pct": 0.3
  },
  "analysis": {
-  "price": 4057.65,
+  "price": 4053.38,
   "trend_d1": "bearish",
-  "rsi14_d1": 48.2,
+  "rsi14_d1": 47.6,
   "macd_d1": {
-   "macd": -13.398,
-   "signal": -17.876,
-   "hist": 4.479
+   "macd": -12.78,
+   "signal": -16.887,
+   "hist": 4.107
   },
-  "ema20": 4061.56,
-  "ema50": 4128.39,
-  "ema200": 4400.93,
+  "ema20": 4060.58,
+  "ema50": 4125.36,
+  "ema200": 4396.27,
   "patterns": [
    {
     "name": "Three White Soldiers",
     "direction": "bullish",
     "candle": "2026-08-03",
     "strength": 2,
-    "price": 4057.65
+    "price": 4055.31
    },
    {
     "name": "Doji",
@@ -120,9 +120,9 @@
    {
     "side": "BUY_LIMIT",
     "entry": 4022.6,
-    "sl": 3946.71,
-    "tp": 4136.43,
-    "tp2": 4212.31,
+    "sl": 3954.0,
+    "tp": 4125.5,
+    "tp2": 4194.09,
     "rr": 1.5,
     "confidence": 70,
     "reason": "Support 4022.6 (3x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; MACD histogram positif"
@@ -130,9 +130,9 @@
    {
     "side": "BUY_LIMIT",
     "entry": 3989.88,
-    "sl": 3913.99,
-    "tp": 4103.71,
-    "tp2": 4179.59,
+    "sl": 3921.28,
+    "tp": 4092.78,
+    "tp2": 4161.37,
     "rr": 1.5,
     "confidence": 70,
     "reason": "Support 3989.88 (2x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; MACD histogram positif"
@@ -140,9 +140,9 @@
    {
     "side": "SELL_LIMIT",
     "entry": 4115.81,
-    "sl": 4191.7,
-    "tp": 4001.98,
-    "tp2": 3926.1,
+    "sl": 4184.41,
+    "tp": 4012.91,
+    "tp2": 3944.32,
     "rr": 1.5,
     "confidence": 70,
     "reason": "Resistance 4115.81 (4x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; Trend D1: bearish"
@@ -154,13 +154,6 @@
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
   "1day": [
-   {
-    "datetime": "2026-06-25",
-    "open": 4000.57448,
-    "high": 4044.57442,
-    "low": 3964.41385,
-    "close": 4026.44634
-   },
    {
     "datetime": "2026-06-26",
     "open": 4026.49141,
@@ -432,17 +425,17 @@
     "open": 4042.68784,
     "high": 4088.47459,
     "low": 4022.04078,
-    "close": 4057.64511
+    "close": 4055.3131
+   },
+   {
+    "datetime": "2026-08-04",
+    "open": 4055.25693,
+    "high": 4055.27787,
+    "low": 4053.17769,
+    "close": 4053.38063
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-25 07:00:00",
-    "open": 4053.37645,
-    "high": 4056.11207,
-    "low": 4053.34198,
-    "close": 4056.00432
-   },
    {
     "datetime": "2026-07-25 11:00:00",
     "open": 4055.92965,
@@ -854,7 +847,14 @@
     "open": 4036.68133,
     "high": 4057.94749,
     "low": 4029.79402,
-    "close": 4057.64511
+    "close": 4055.3131
+   },
+   {
+    "datetime": "2026-08-04 07:00:00",
+    "open": 4055.25693,
+    "high": 4055.27787,
+    "low": 4053.17769,
+    "close": 4053.38063
    }
   ]
  }
