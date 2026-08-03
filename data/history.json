@@ -1558,5 +1558,45 @@
     "conf": 70
    }
   ]
+ },
+ {
+  "ts": "2026-08-03T11:50:35Z",
+  "price": 4056.66,
+  "trend": "bearish",
+  "rsi": 48.1,
+  "ema20": 4061.47,
+  "ema50": 4128.35,
+  "patterns": [
+   "Three White Soldiers",
+   "Doji",
+   "Three Black Crows"
+  ],
+  "support": [
+   4022.6,
+   3989.88,
+   3957.58
+  ],
+  "resistance": [
+   4115.81,
+   4210.54,
+   4360.0
+  ],
+  "opportunities": [
+   {
+    "side": "BUY_LIMIT",
+    "entry": 4022.6,
+    "conf": 70
+   },
+   {
+    "side": "BUY_LIMIT",
+    "entry": 3989.88,
+    "conf": 70
+   },
+   {
+    "side": "SELL_LIMIT",
+    "entry": 4115.81,
+    "conf": 70
+   }
+  ]
  }
 ]

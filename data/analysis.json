@@ -1,31 +1,31 @@
 {
- "generated_at": "2026-08-03T08:16:09Z",
+ "generated_at": "2026-08-03T11:50:35Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4061.005,
+  "price": 4059.73,
   "prev_close": 4043.21,
-  "change": 17.8,
-  "change_pct": 0.44
+  "change": 16.52,
+  "change_pct": 0.41
  },
  "analysis": {
-  "price": 4060.16,
+  "price": 4056.66,
   "trend_d1": "bearish",
-  "rsi14_d1": 48.5,
+  "rsi14_d1": 48.1,
   "macd_d1": {
-   "macd": -13.197,
-   "signal": -17.836,
-   "hist": 4.639
+   "macd": -13.476,
+   "signal": -17.892,
+   "hist": 4.416
   },
-  "ema20": 4061.8,
-  "ema50": 4128.49,
-  "ema200": 4400.96,
+  "ema20": 4061.47,
+  "ema50": 4128.35,
+  "ema200": 4400.92,
   "patterns": [
    {
     "name": "Three White Soldiers",
     "direction": "bullish",
     "candle": "2026-08-03",
     "strength": 2,
-    "price": 4060.16
+    "price": 4056.66
    },
    {
     "name": "Doji",
@@ -149,7 +149,7 @@
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4115.81, dengan peringatan bahwa keputusan investasi harus berdasarkan analisis menyeluruh.",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4115.81, dengan risiko-reward yang layak.",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -432,17 +432,10 @@
     "open": 4042.68784,
     "high": 4088.47459,
     "low": 4022.31329,
-    "close": 4060.15721
+    "close": 4056.6615
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-24 19:00:00",
-    "open": 4056.7881,
-    "high": 4064.73079,
-    "low": 4051.20726,
-    "close": 4053.86688
-   },
    {
     "datetime": "2026-07-24 23:00:00",
     "open": 4052.57313,
@@ -854,7 +847,14 @@
     "open": 4065.77708,
     "high": 4070.99821,
     "low": 4052.84915,
-    "close": 4060.15721
+    "close": 4058.77361
+   },
+   {
+    "datetime": "2026-08-03 19:00:00",
+    "open": 4058.93993,
+    "high": 4062.21195,
+    "low": 4045.56467,
+    "close": 4056.6615
    }
   ]
  }
