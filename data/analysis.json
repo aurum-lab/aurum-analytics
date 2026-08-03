@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-08-03T15:08:29Z",
+ "generated_at": "2026-08-03T17:19:32Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4033.78,
+  "price": 4037.01,
   "prev_close": 4043.21,
-  "change": -9.43,
-  "change_pct": -0.23
+  "change": -6.2,
+  "change_pct": -0.15
  },
  "analysis": {
-  "price": 4030.84,
+  "price": 4035.0,
   "trend_d1": "bearish",
-  "rsi14_d1": 44.8,
+  "rsi14_d1": 45.3,
   "macd_d1": {
-   "macd": -15.536,
-   "signal": -18.304,
-   "hist": 2.768
+   "macd": -15.204,
+   "signal": -18.238,
+   "hist": 3.034
   },
-  "ema20": 4059.01,
-  "ema50": 4127.34,
-  "ema200": 4400.67,
+  "ema20": 4059.4,
+  "ema50": 4127.5,
+  "ema200": 4400.71,
   "patterns": [
    {
     "name": "Doji",
@@ -149,7 +149,7 @@
    }
   ]
  },
- "ai_summary": "Berikut adalah analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022,6 dan Resistance 4115,81\n* Peluang limit order: BUY_LIMIT di 4022,6 dan SELL_LIMIT di 4115,81, dengan confidence 70% dan rasio risiko/keuntungan 1,5.",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022,6 dan Resistance 4115,81\n* Peluang limit order: BUY_LIMIT di 4022,6 dan SELL_LIMIT di 4115,81, dengan confidence 70%",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -432,17 +432,10 @@
     "open": 4042.68784,
     "high": 4088.47459,
     "low": 4022.04078,
-    "close": 4030.83755
+    "close": 4035.00319
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-25 03:00:00",
-    "open": 4067.07741,
-    "high": 4069.93399,
-    "low": 4049.40271,
-    "close": 4053.47211
-   },
    {
     "datetime": "2026-07-25 07:00:00",
     "open": 4053.37645,
@@ -854,7 +847,14 @@
     "open": 4048.27683,
     "high": 4051.53553,
     "low": 4022.04078,
-    "close": 4030.83755
+    "close": 4037.17526
+   },
+   {
+    "datetime": "2026-08-04 03:00:00",
+    "open": 4036.68133,
+    "high": 4037.79375,
+    "low": 4033.55921,
+    "close": 4035.00319
    }
   ]
  }
