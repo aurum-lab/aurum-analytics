@@ -1,38 +1,31 @@
 {
- "generated_at": "2026-08-03T19:02:50Z",
+ "generated_at": "2026-08-03T20:38:47Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4047.51,
+  "price": 4057.555,
   "prev_close": 4043.21,
-  "change": 4.3,
-  "change_pct": 0.11
+  "change": 14.34,
+  "change_pct": 0.35
  },
  "analysis": {
-  "price": 4046.4,
+  "price": 4057.65,
   "trend_d1": "bearish",
-  "rsi14_d1": 46.7,
+  "rsi14_d1": 48.2,
   "macd_d1": {
-   "macd": -14.295,
-   "signal": -18.056,
-   "hist": 3.761
+   "macd": -13.398,
+   "signal": -17.876,
+   "hist": 4.479
   },
-  "ema20": 4060.49,
-  "ema50": 4127.95,
-  "ema200": 4400.82,
+  "ema20": 4061.56,
+  "ema50": 4128.39,
+  "ema200": 4400.93,
   "patterns": [
-   {
-    "name": "Doji",
-    "direction": "neutral",
-    "candle": "2026-08-03",
-    "strength": 1,
-    "price": 4046.4
-   },
    {
     "name": "Three White Soldiers",
     "direction": "bullish",
     "candle": "2026-08-03",
     "strength": 2,
-    "price": 4046.4
+    "price": 4057.65
    },
    {
     "name": "Doji",
@@ -54,6 +47,13 @@
     "candle": "2026-07-28",
     "strength": 3,
     "price": 4028.58
+   },
+   {
+    "name": "Doji",
+    "direction": "neutral",
+    "candle": "2026-07-26",
+    "strength": 1,
+    "price": 4056.01
    }
   ],
   "levels": {
@@ -149,7 +149,7 @@
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 dengan target 4136.43 dan SELL_LIMIT di 4115.81 dengan target 4001.98.",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bearish\n* Level penting: Support 4022.6, Resistance 4115.81\n* Peluang limit order: BUY_LIMIT di 4022.6 atau SELL_LIMIT di 4115.81, dengan risiko-reward yang layak.",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -432,7 +432,7 @@
     "open": 4042.68784,
     "high": 4088.47459,
     "low": 4022.04078,
-    "close": 4046.40302
+    "close": 4057.64511
    }
   ],
   "4h": [
@@ -852,9 +852,9 @@
    {
     "datetime": "2026-08-04 03:00:00",
     "open": 4036.68133,
-    "high": 4047.40725,
+    "high": 4057.94749,
     "low": 4029.79402,
-    "close": 4046.40302
+    "close": 4057.64511
    }
   ]
  }
