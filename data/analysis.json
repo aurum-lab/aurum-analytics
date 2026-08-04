@@ -1,31 +1,31 @@
 {
- "generated_at": "2026-08-04T17:59:54Z",
+ "generated_at": "2026-08-04T19:51:52Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4086.485,
+  "price": 4079.57,
   "prev_close": 4055.21,
-  "change": 31.28,
-  "change_pct": 0.77
+  "change": 24.36,
+  "change_pct": 0.6
  },
  "analysis": {
-  "price": 4088.38,
+  "price": 4079.83,
   "trend_d1": "ranging",
-  "rsi14_d1": 52.1,
+  "rsi14_d1": 51.1,
   "macd_d1": {
-   "macd": -9.988,
-   "signal": -16.329,
-   "hist": 6.34
+   "macd": -10.67,
+   "signal": -16.465,
+   "hist": 5.795
   },
-  "ema20": 4063.91,
-  "ema50": 4126.73,
-  "ema200": 4396.62,
+  "ema20": 4063.1,
+  "ema50": 4126.4,
+  "ema200": 4396.54,
   "patterns": [
    {
     "name": "Three White Soldiers",
     "direction": "bullish",
     "candle": "2026-08-04",
     "strength": 2,
-    "price": 4088.38
+    "price": 4079.83
    },
    {
     "name": "Three White Soldiers",
@@ -432,7 +432,7 @@
     "open": 4055.25693,
     "high": 4105.94294,
     "low": 4042.61423,
-    "close": 4088.38026
+    "close": 4079.83391
    }
   ],
   "4h": [
@@ -853,8 +853,8 @@
     "datetime": "2026-08-05 03:00:00",
     "open": 4093.40369,
     "high": 4105.94294,
-    "low": 4087.9817,
-    "close": 4088.38026
+    "low": 4075.86501,
+    "close": 4079.83391
    }
   ]
  }
