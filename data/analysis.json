@@ -1,25 +1,32 @@
 {
- "generated_at": "2026-08-05T10:10:45Z",
+ "generated_at": "2026-08-05T12:20:48Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4152.87,
+  "price": 4209.665,
   "prev_close": 4077.22,
-  "change": 75.65,
-  "change_pct": 1.86
+  "change": 132.45,
+  "change_pct": 3.25
  },
  "analysis": {
-  "price": 4152.9,
+  "price": 4207.43,
   "trend_d1": "ranging",
-  "rsi14_d1": 59.2,
+  "rsi14_d1": 63.6,
   "macd_d1": {
-   "macd": -2.587,
-   "signal": -13.721,
-   "hist": 11.133
+   "macd": 1.763,
+   "signal": -12.85,
+   "hist": 14.614
   },
-  "ema20": 4071.44,
-  "ema50": 4127.34,
-  "ema200": 4396.18,
+  "ema20": 4076.64,
+  "ema50": 4129.48,
+  "ema200": 4396.72,
   "patterns": [
+   {
+    "name": "Marubozu",
+    "direction": "bullish",
+    "candle": "2026-08-05",
+    "strength": 1,
+    "price": 4207.43
+   },
    {
     "name": "Three White Soldiers",
     "direction": "bullish",
@@ -47,13 +54,6 @@
     "candle": "2026-08-01",
     "strength": 2,
     "price": 4042.74
-   },
-   {
-    "name": "Evening Star",
-    "direction": "bearish",
-    "candle": "2026-07-28",
-    "strength": 3,
-    "price": 4028.58
    }
   ],
   "levels": {
@@ -122,9 +122,9 @@
    {
     "side": "BUY_LIMIT",
     "entry": 4115.81,
-    "sl": 4039.99,
-    "tp": 4229.53,
-    "tp2": 4305.35,
+    "sl": 4037.56,
+    "tp": 4233.18,
+    "tp2": 4311.43,
     "rr": 1.5,
     "confidence": 80,
     "reason": "Support 4115.81 (4x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
@@ -132,9 +132,9 @@
    {
     "side": "BUY_LIMIT",
     "entry": 4022.46,
-    "sl": 3946.64,
-    "tp": 4136.18,
-    "tp2": 4212.0,
+    "sl": 3944.21,
+    "tp": 4139.83,
+    "tp2": 4218.08,
     "rr": 1.5,
     "confidence": 80,
     "reason": "Support 4022.46 (4x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
@@ -142,16 +142,16 @@
    {
     "side": "SELL_LIMIT",
     "entry": 4210.54,
-    "sl": 4286.36,
-    "tp": 4096.82,
-    "tp2": 4021.0,
+    "sl": 4288.79,
+    "tp": 4093.17,
+    "tp2": 4014.92,
     "rr": 1.5,
     "confidence": 70,
     "reason": "Resistance 4210.54 (3x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; Trend D1: ranging"
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Netral\n* Level penting: \n + Support: 4115,81 dan 4022,46\n + Resistance: 4210,54\n* Peluang limit order: \n + BUY_LIMIT di 4115,81 dan 4022,46\n + SELL_LIMIT di 4210,54",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bullish\n* Level penting: Support 4115,81 dan 4022,46, Resistance 4210,54\n* Peluang limit order: BUY_LIMIT di 4115,81 dan 4022,46 dengan confidence 80%",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -432,9 +432,9 @@
    {
     "datetime": "2026-08-05",
     "open": 4077.53527,
-    "high": 4179.30077,
+    "high": 4207.69166,
     "low": 4065.90565,
-    "close": 4152.89552
+    "close": 4207.4326
    }
   ],
   "4h": [
@@ -854,9 +854,9 @@
    {
     "datetime": "2026-08-05 19:00:00",
     "open": 4160.20114,
-    "high": 4166.84029,
-    "low": 4152.30661,
-    "close": 4152.89552
+    "high": 4207.69166,
+    "low": 4150.27668,
+    "close": 4207.4326
    }
   ]
  }
