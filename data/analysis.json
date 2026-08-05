@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-08-05T16:48:50Z",
+ "generated_at": "2026-08-05T18:14:44Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4243.53,
+  "price": 4254.85,
   "prev_close": 4077.22,
-  "change": 166.31,
-  "change_pct": 4.08
+  "change": 177.63,
+  "change_pct": 4.36
  },
  "analysis": {
-  "price": 4241.49,
+  "price": 4256.57,
   "trend_d1": "ranging",
-  "rsi14_d1": 65.9,
+  "rsi14_d1": 66.9,
   "macd_d1": {
-   "macd": 4.48,
-   "signal": -12.307,
-   "hist": 16.787
+   "macd": 5.683,
+   "signal": -12.067,
+   "hist": 17.749
   },
-  "ema20": 4079.88,
-  "ema50": 4130.82,
-  "ema200": 4397.06,
+  "ema20": 4081.31,
+  "ema50": 4131.41,
+  "ema200": 4397.21,
   "patterns": [
    {
     "name": "Three White Soldiers",
@@ -153,7 +153,7 @@
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Netral\n* Level penting: \n + Support: 4210,54, 4115,81\n + Resistance: 4360,0\n* Peluang limit order: \n + Buy limit di 4210,54 atau 4115,81\n + Sell limit di 4360,0",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Netral\n* Level penting: \n + Support: 4210,54 dan 4115,81\n + Resistance: 4360,0\n* Peluang limit order: \n + Buy limit di 4210,54 dan 4115,81\n + Sell limit di 4360,0",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -436,17 +436,10 @@
     "open": 4077.53527,
     "high": 4267.13964,
     "low": 4065.90565,
-    "close": 4241.49304
+    "close": 4256.56566
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-27 03:00:00",
-    "open": 4055.92307,
-    "high": 4057.61818,
-    "low": 4055.08427,
-    "close": 4056.01212
-   },
    {
     "datetime": "2026-07-27 07:00:00",
     "open": 4055.9211,
@@ -858,7 +851,14 @@
     "open": 4184.38768,
     "high": 4267.13964,
     "low": 4183.16763,
-    "close": 4241.49304
+    "close": 4240.74209
+   },
+   {
+    "datetime": "2026-08-06 03:00:00",
+    "open": 4240.0459,
+    "high": 4256.94947,
+    "low": 4235.79107,
+    "close": 4256.56566
    }
   ]
  }
