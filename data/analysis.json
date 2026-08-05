@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-08-05T01:11:02Z",
+ "generated_at": "2026-08-05T04:32:54Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4084.625,
+  "price": 4138.17,
   "prev_close": 4077.22,
-  "change": 7.41,
-  "change_pct": 0.18
+  "change": 60.95,
+  "change_pct": 1.49
  },
  "analysis": {
-  "price": 4082.41,
+  "price": 4138.22,
   "trend_d1": "ranging",
-  "rsi14_d1": 51.4,
+  "rsi14_d1": 57.8,
   "macd_d1": {
-   "macd": -8.21,
-   "signal": -14.845,
-   "hist": 6.635
+   "macd": -3.758,
+   "signal": -13.955,
+   "hist": 10.197
   },
-  "ema20": 4064.73,
-  "ema50": 4124.58,
-  "ema200": 4395.48,
+  "ema20": 4070.04,
+  "ema50": 4126.77,
+  "ema200": 4396.03,
   "patterns": [
    {
     "name": "Three White Soldiers",
@@ -59,6 +59,16 @@
   "levels": {
    "support": [
     {
+     "price": 4115.81,
+     "touches": 4,
+     "prices": [
+      4116.42784,
+      4119.46447,
+      4104.81533,
+      4122.52133
+     ]
+    },
+    {
      "price": 4022.46,
      "touches": 4,
      "prices": [
@@ -75,28 +85,9 @@
       3983.42894,
       3996.32338
      ]
-    },
-    {
-     "price": 3957.58,
-     "touches": 3,
-     "prices": [
-      3961.49428,
-      3949.44708,
-      3961.80817
-     ]
     }
    ],
    "resistance": [
-    {
-     "price": 4115.81,
-     "touches": 4,
-     "prices": [
-      4116.42784,
-      4119.46447,
-      4104.81533,
-      4122.52133
-     ]
-    },
     {
      "price": 4210.54,
      "touches": 3,
@@ -114,43 +105,53 @@
       4352.84304,
       4367.19364
      ]
+    },
+    {
+     "price": 4410.49,
+     "touches": 4,
+     "prices": [
+      4402.87822,
+      4407.90536,
+      4410.8453,
+      4420.32741
+     ]
     }
    ]
   },
   "opportunities": [
    {
     "side": "BUY_LIMIT",
+    "entry": 4115.81,
+    "sl": 4043.25,
+    "tp": 4224.65,
+    "tp2": 4297.21,
+    "rr": 1.5,
+    "confidence": 80,
+    "reason": "Support 4115.81 (4x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
+   },
+   {
+    "side": "BUY_LIMIT",
     "entry": 4022.46,
-    "sl": 3954.64,
-    "tp": 4124.19,
-    "tp2": 4192.02,
+    "sl": 3949.9,
+    "tp": 4131.3,
+    "tp2": 4203.86,
     "rr": 1.5,
     "confidence": 80,
     "reason": "Support 4022.46 (4x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
    },
    {
-    "side": "BUY_LIMIT",
-    "entry": 3989.88,
-    "sl": 3922.06,
-    "tp": 4091.61,
-    "tp2": 4159.44,
-    "rr": 1.5,
-    "confidence": 80,
-    "reason": "Support 3989.88 (2x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
-   },
-   {
     "side": "SELL_LIMIT",
-    "entry": 4115.81,
-    "sl": 4183.63,
-    "tp": 4014.08,
-    "tp2": 3946.25,
+    "entry": 4210.54,
+    "sl": 4283.1,
+    "tp": 4101.7,
+    "tp2": 4029.14,
     "rr": 1.5,
     "confidence": 70,
-    "reason": "Resistance 4115.81 (4x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; Trend D1: ranging"
+    "reason": "Resistance 4210.54 (3x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; Trend D1: ranging"
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Netral\n* Level penting: \n + Support: 4022.46, 3989.88\n + Resistance: 4115.81\n* Peluang limit order: \n + Buy limit: 4022.46, 3989.88\n + Sell limit: 4115.81",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Netral\n* Level penting: \n + Support: 4115,81 dan 4022,46\n + Resistance: 4210,54\n* Peluang limit order: \n + Buy limit di 4115,81 dan 4022,46\n + Sell limit di 4210,54",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -431,9 +432,9 @@
    {
     "datetime": "2026-08-05",
     "open": 4077.53527,
-    "high": 4086.05472,
+    "high": 4141.3012,
     "low": 4065.90565,
-    "close": 4082.41362
+    "close": 4138.22386
    }
   ],
   "4h": [
@@ -853,9 +854,9 @@
    {
     "datetime": "2026-08-05 11:00:00",
     "open": 4082.04942,
-    "high": 4084.80234,
+    "high": 4141.3012,
     "low": 4078.12536,
-    "close": 4082.41362
+    "close": 4138.22386
    }
   ]
  }
