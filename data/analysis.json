@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-08-05T20:00:00Z",
+ "generated_at": "2026-08-05T21:22:31Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4247.65,
+  "price": 4247.52,
   "prev_close": 4077.22,
-  "change": 170.43,
+  "change": 170.3,
   "change_pct": 4.18
  },
  "analysis": {
-  "price": 4247.76,
+  "price": 4247.04,
   "trend_d1": "ranging",
   "rsi14_d1": 66.3,
   "macd_d1": {
-   "macd": 4.98,
-   "signal": -12.207,
-   "hist": 17.187
+   "macd": 17.233,
+   "signal": -6.329,
+   "hist": 23.562
   },
-  "ema20": 4080.48,
-  "ema50": 4131.06,
-  "ema200": 4397.12,
+  "ema20": 4096.27,
+  "ema50": 4135.58,
+  "ema200": 4394.89,
   "patterns": [
    {
     "name": "Three White Soldiers",
@@ -124,9 +124,9 @@
    {
     "side": "BUY_LIMIT",
     "entry": 4210.54,
-    "sl": 4127.2,
-    "tp": 4335.56,
-    "tp2": 4418.9,
+    "sl": 4135.75,
+    "tp": 4322.72,
+    "tp2": 4397.51,
     "rr": 1.5,
     "confidence": 80,
     "reason": "Support 4210.54 (3x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
@@ -134,9 +134,9 @@
    {
     "side": "BUY_LIMIT",
     "entry": 4115.81,
-    "sl": 4032.47,
-    "tp": 4240.83,
-    "tp2": 4324.17,
+    "sl": 4041.02,
+    "tp": 4227.99,
+    "tp2": 4302.78,
     "rr": 1.5,
     "confidence": 80,
     "reason": "Support 4115.81 (4x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
@@ -144,27 +144,20 @@
    {
     "side": "SELL_LIMIT",
     "entry": 4360.0,
-    "sl": 4443.34,
-    "tp": 4234.98,
-    "tp2": 4151.64,
+    "sl": 4434.79,
+    "tp": 4247.82,
+    "tp2": 4173.03,
     "rr": 1.5,
     "confidence": 70,
     "reason": "Resistance 4360.0 (3x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; Trend D1: ranging"
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bullish\n* Level penting: Support 4210,54 dan 4115,81, Resistance 4360,0\n* Peluang limit order: BUY_LIMIT di 4210,54 dan 4115,81, dengan risiko-reward yang layak.",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bullish\n* Level penting: Support 4210,54 dan 4115,81, resistance 4360,0\n* Peluang limit order: BUY_LIMIT di 4210,54 dan 4115,81, dengan rasio risiko/keuntungan 1,5 dan kepercayaan 80%.",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
   "1day": [
-   {
-    "datetime": "2026-06-27",
-    "open": 4088.78641,
-    "high": 4091.22487,
-    "low": 4080.75528,
-    "close": 4080.81341
-   },
    {
     "datetime": "2026-06-28",
     "open": 4080.82149,
@@ -436,17 +429,17 @@
     "open": 4077.53527,
     "high": 4267.13964,
     "low": 4065.90565,
-    "close": 4247.75619
+    "close": 4246.99711
+   },
+   {
+    "datetime": "2026-08-06",
+    "open": 4246.60064,
+    "high": 4247.54704,
+    "low": 4246.55902,
+    "close": 4247.04135
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-27 07:00:00",
-    "open": 4055.9211,
-    "high": 4116.42784,
-    "low": 4012.26194,
-    "close": 4102.20248
-   },
    {
     "datetime": "2026-07-27 11:00:00",
     "open": 4104.8633,
@@ -858,7 +851,14 @@
     "open": 4240.0459,
     "high": 4265.11985,
     "low": 4235.79107,
-    "close": 4247.75619
+    "close": 4246.99711
+   },
+   {
+    "datetime": "2026-08-06 07:00:00",
+    "open": 4246.60064,
+    "high": 4247.54704,
+    "low": 4246.55902,
+    "close": 4247.04135
    }
   ]
  }
