@@ -2798,5 +2798,45 @@
     "conf": 80
    }
   ]
+ },
+ {
+  "ts": "2026-08-06T01:06:21Z",
+  "price": 4293.28,
+  "trend": "ranging",
+  "rsi": 69.2,
+  "ema20": 4100.68,
+  "ema50": 4137.4,
+  "patterns": [
+   "Three White Soldiers",
+   "Three White Soldiers",
+   "Doji"
+  ],
+  "support": [
+   4210.54,
+   4115.81,
+   4022.46
+  ],
+  "resistance": [
+   4360.0,
+   4410.49,
+   4510.75
+  ],
+  "opportunities": [
+   {
+    "side": "SELL_LIMIT",
+    "entry": 4360.0,
+    "conf": 85
+   },
+   {
+    "side": "SELL_LIMIT",
+    "entry": 4410.49,
+    "conf": 85
+   },
+   {
+    "side": "BUY_LIMIT",
+    "entry": 4210.54,
+    "conf": 80
+   }
+  ]
  }
 ]

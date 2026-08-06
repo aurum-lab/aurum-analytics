@@ -1,32 +1,25 @@
 {
- "generated_at": "2026-08-05T23:38:04Z",
+ "generated_at": "2026-08-06T01:06:21Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4278.66,
+  "price": 4291.28,
   "prev_close": 4247.52,
-  "change": 31.14,
-  "change_pct": 0.73
+  "change": 43.76,
+  "change_pct": 1.03
  },
  "analysis": {
-  "price": 4273.93,
+  "price": 4293.28,
   "trend_d1": "ranging",
-  "rsi14_d1": 68.0,
+  "rsi14_d1": 69.2,
   "macd_d1": {
-   "macd": 19.378,
-   "signal": -5.9,
-   "hist": 25.278
+   "macd": 20.922,
+   "signal": -5.591,
+   "hist": 26.513
   },
-  "ema20": 4098.83,
-  "ema50": 4136.64,
-  "ema200": 4395.16,
+  "ema20": 4100.68,
+  "ema50": 4137.4,
+  "ema200": 4395.35,
   "patterns": [
-   {
-    "name": "Marubozu",
-    "direction": "bullish",
-    "candle": "2026-08-06",
-    "strength": 1,
-    "price": 4273.93
-   },
    {
     "name": "Three White Soldiers",
     "direction": "bullish",
@@ -54,6 +47,13 @@
     "candle": "2026-08-01",
     "strength": 2,
     "price": 4042.74
+   },
+   {
+    "name": "Evening Star",
+    "direction": "bearish",
+    "candle": "2026-07-28",
+    "strength": 3,
+    "price": 4028.58
    }
   ],
   "levels": {
@@ -124,36 +124,36 @@
    {
     "side": "SELL_LIMIT",
     "entry": 4360.0,
-    "sl": 4437.23,
-    "tp": 4244.16,
-    "tp2": 4166.93,
+    "sl": 4439.51,
+    "tp": 4240.73,
+    "tp2": 4161.22,
     "rr": 1.5,
     "confidence": 85,
-    "reason": "Resistance 4360.0 (3x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; RSI overbought (68.0); Trend D1: ranging"
+    "reason": "Resistance 4360.0 (3x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; RSI overbought (69.2); Trend D1: ranging"
    },
    {
     "side": "SELL_LIMIT",
     "entry": 4410.49,
-    "sl": 4487.72,
-    "tp": 4294.65,
-    "tp2": 4217.42,
+    "sl": 4490.0,
+    "tp": 4291.22,
+    "tp2": 4211.71,
     "rr": 1.5,
     "confidence": 85,
-    "reason": "Resistance 4410.49 (4x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; RSI overbought (68.0); Trend D1: ranging"
+    "reason": "Resistance 4410.49 (4x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; RSI overbought (69.2); Trend D1: ranging"
    },
    {
     "side": "BUY_LIMIT",
     "entry": 4210.54,
-    "sl": 4133.31,
-    "tp": 4326.38,
-    "tp2": 4403.61,
+    "sl": 4131.03,
+    "tp": 4329.81,
+    "tp2": 4409.32,
     "rr": 1.5,
     "confidence": 80,
     "reason": "Support 4210.54 (3x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Ranging\n* Level penting: Support 4210,54 dan resistance 4360,0\n* Peluang limit order: \n + SELL_LIMIT di 4360,0 dengan SL 4437,23 dan TP 4244,16\n + BUY_LIMIT di 4210,54 dengan SL 4133,31 dan TP 4326,38",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Ranging\n* Level penting: Support 4210,54 dan resistance 4360,0\n* Peluang limit order: \n + Sell limit di 4360,0 dengan target 4240,73\n + Buy limit di 4210,54 dengan target 4329,81",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -434,19 +434,12 @@
    {
     "datetime": "2026-08-06",
     "open": 4246.60064,
-    "high": 4275.39882,
+    "high": 4302.01401,
     "low": 4245.95111,
-    "close": 4273.92913
+    "close": 4293.28309
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-27 11:00:00",
-    "open": 4104.8633,
-    "high": 4113.98775,
-    "low": 4085.1342,
-    "close": 4090.63644
-   },
    {
     "datetime": "2026-07-27 15:00:00",
     "open": 4090.48688,
@@ -856,9 +849,16 @@
    {
     "datetime": "2026-08-06 07:00:00",
     "open": 4246.60064,
-    "high": 4275.39882,
+    "high": 4299.15389,
     "low": 4245.95111,
-    "close": 4273.92913
+    "close": 4295.86705
+   },
+   {
+    "datetime": "2026-08-06 11:00:00",
+    "open": 4295.38811,
+    "high": 4302.01401,
+    "low": 4292.39816,
+    "close": 4293.28309
    }
   ]
  }
