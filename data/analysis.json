@@ -1,32 +1,25 @@
 {
- "generated_at": "2026-08-06T07:24:35Z",
+ "generated_at": "2026-08-06T10:12:45Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4264.045,
+  "price": 4270.485,
   "prev_close": 4247.52,
-  "change": 16.52,
-  "change_pct": 0.39
+  "change": 22.96,
+  "change_pct": 0.54
  },
  "analysis": {
-  "price": 4260.85,
+  "price": 4269.79,
   "trend_d1": "ranging",
-  "rsi14_d1": 67.2,
+  "rsi14_d1": 67.8,
   "macd_d1": {
-   "macd": 18.334,
-   "signal": -6.109,
-   "hist": 24.443
+   "macd": 19.048,
+   "signal": -5.966,
+   "hist": 25.014
   },
-  "ema20": 4097.59,
-  "ema50": 4136.12,
-  "ema200": 4395.03,
+  "ema20": 4098.44,
+  "ema50": 4136.48,
+  "ema200": 4395.12,
   "patterns": [
-   {
-    "name": "Inverted Hammer",
-    "direction": "bullish",
-    "candle": "2026-08-06",
-    "strength": 2,
-    "price": 4260.85
-   },
    {
     "name": "Three White Soldiers",
     "direction": "bullish",
@@ -54,6 +47,13 @@
     "candle": "2026-08-01",
     "strength": 2,
     "price": 4042.74
+   },
+   {
+    "name": "Evening Star",
+    "direction": "bearish",
+    "candle": "2026-07-28",
+    "strength": 3,
+    "price": 4028.58
    }
   ],
   "levels": {
@@ -129,7 +129,7 @@
     "tp2": 4410.15,
     "rr": 1.5,
     "confidence": 80,
-    "reason": "Support 4210.54 (3x) + harga di zona permintaan; Pola bullish: Inverted Hammer, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
+    "reason": "Support 4210.54 (3x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
    },
    {
     "side": "BUY_LIMIT",
@@ -139,7 +139,7 @@
     "tp2": 4315.42,
     "rr": 1.5,
     "confidence": 80,
-    "reason": "Support 4115.81 (4x) + harga di zona permintaan; Pola bullish: Inverted Hammer, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
+    "reason": "Support 4115.81 (4x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
    },
    {
     "side": "SELL_LIMIT",
@@ -153,7 +153,7 @@
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Bullish\n* Level penting: Support 4210,54 dan 4115,81, resistance 4360,0\n* Peluang limit order: BUY_LIMIT di 4210,54 dan 4115,81 dengan confidence 80%",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Netral\n* Level penting: \n + Support: 4210,54 dan 4115,81\n + Resistance: 4360,0\n* Peluang limit order: \n + Buy limit di 4210,54 dan 4115,81\n + Sell limit di 4360,0",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -436,17 +436,10 @@
     "open": 4246.60064,
     "high": 4304.07478,
     "low": 4244.1349,
-    "close": 4260.84632
+    "close": 4269.7926
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-27 19:00:00",
-    "open": 4096.57079,
-    "high": 4104.2479,
-    "low": 4081.96587,
-    "close": 4085.16371
-   },
    {
     "datetime": "2026-07-27 23:00:00",
     "open": 4084.85005,
@@ -856,9 +849,16 @@
    {
     "datetime": "2026-08-06 15:00:00",
     "open": 4262.52598,
-    "high": 4268.03244,
+    "high": 4278.16156,
     "low": 4244.1349,
-    "close": 4260.84632
+    "close": 4277.6147
+   },
+   {
+    "datetime": "2026-08-06 19:00:00",
+    "open": 4276.61763,
+    "high": 4284.96,
+    "low": 4269.46972,
+    "close": 4269.7926
    }
   ]
  }
