@@ -1,25 +1,32 @@
 {
- "generated_at": "2026-08-06T01:06:21Z",
+ "generated_at": "2026-08-06T04:30:22Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4291.28,
+  "price": 4257.69,
   "prev_close": 4247.52,
-  "change": 43.76,
-  "change_pct": 1.03
+  "change": 10.17,
+  "change_pct": 0.24
  },
  "analysis": {
-  "price": 4293.28,
+  "price": 4258.96,
   "trend_d1": "ranging",
-  "rsi14_d1": 69.2,
+  "rsi14_d1": 67.1,
   "macd_d1": {
-   "macd": 20.922,
-   "signal": -5.591,
-   "hist": 26.513
+   "macd": 18.184,
+   "signal": -6.139,
+   "hist": 24.322
   },
-  "ema20": 4100.68,
-  "ema50": 4137.4,
-  "ema200": 4395.35,
+  "ema20": 4097.41,
+  "ema50": 4136.05,
+  "ema200": 4395.01,
   "patterns": [
+   {
+    "name": "Inverted Hammer",
+    "direction": "bullish",
+    "candle": "2026-08-06",
+    "strength": 2,
+    "price": 4258.96
+   },
    {
     "name": "Three White Soldiers",
     "direction": "bullish",
@@ -47,13 +54,6 @@
     "candle": "2026-08-01",
     "strength": 2,
     "price": 4042.74
-   },
-   {
-    "name": "Evening Star",
-    "direction": "bearish",
-    "candle": "2026-07-28",
-    "strength": 3,
-    "price": 4028.58
    }
   ],
   "levels": {
@@ -122,38 +122,38 @@
   },
   "opportunities": [
    {
-    "side": "SELL_LIMIT",
-    "entry": 4360.0,
-    "sl": 4439.51,
-    "tp": 4240.73,
-    "tp2": 4161.22,
+    "side": "BUY_LIMIT",
+    "entry": 4210.54,
+    "sl": 4130.85,
+    "tp": 4330.07,
+    "tp2": 4409.76,
     "rr": 1.5,
-    "confidence": 85,
-    "reason": "Resistance 4360.0 (3x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; RSI overbought (69.2); Trend D1: ranging"
-   },
-   {
-    "side": "SELL_LIMIT",
-    "entry": 4410.49,
-    "sl": 4490.0,
-    "tp": 4291.22,
-    "tp2": 4211.71,
-    "rr": 1.5,
-    "confidence": 85,
-    "reason": "Resistance 4410.49 (4x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; RSI overbought (69.2); Trend D1: ranging"
+    "confidence": 80,
+    "reason": "Support 4210.54 (3x) + harga di zona permintaan; Pola bullish: Inverted Hammer, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
    },
    {
     "side": "BUY_LIMIT",
-    "entry": 4210.54,
-    "sl": 4131.03,
-    "tp": 4329.81,
-    "tp2": 4409.32,
+    "entry": 4115.81,
+    "sl": 4036.12,
+    "tp": 4235.34,
+    "tp2": 4315.03,
     "rr": 1.5,
     "confidence": 80,
-    "reason": "Support 4210.54 (3x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
+    "reason": "Support 4115.81 (4x) + harga di zona permintaan; Pola bullish: Inverted Hammer, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
+   },
+   {
+    "side": "SELL_LIMIT",
+    "entry": 4360.0,
+    "sl": 4439.69,
+    "tp": 4240.47,
+    "tp2": 4160.78,
+    "rr": 1.5,
+    "confidence": 70,
+    "reason": "Resistance 4360.0 (3x) + harga di zona supply; Pola bearish: Three Black Crows, Evening Star; Trend D1: ranging"
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Ranging\n* Level penting: Support 4210,54 dan resistance 4360,0\n* Peluang limit order: \n + Sell limit di 4360,0 dengan target 4240,73\n + Buy limit di 4210,54 dengan target 4329,81",
+ "ai_summary": "Berikut adalah analisis pasar emas:\n* Bias: Bullish\n* Level penting: \n + Support: 4210,54, 4115,81\n + Resistance: 4360,0, 4410,49\n* Peluang limit order: \n + Buy limit di 4210,54 dan 4115,81 dengan target 4330,07 dan 4235,34\n + Sell limit di 4360,0 dengan target 4240,47",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -434,9 +434,9 @@
    {
     "datetime": "2026-08-06",
     "open": 4246.60064,
-    "high": 4302.01401,
+    "high": 4304.07478,
     "low": 4245.95111,
-    "close": 4293.28309
+    "close": 4258.95824
    }
   ],
   "4h": [
@@ -856,9 +856,9 @@
    {
     "datetime": "2026-08-06 11:00:00",
     "open": 4295.38811,
-    "high": 4302.01401,
-    "low": 4292.39816,
-    "close": 4293.28309
+    "high": 4304.07478,
+    "low": 4258.09985,
+    "close": 4258.95824
    }
   ]
  }
