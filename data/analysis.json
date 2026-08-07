@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-08-07T16:08:12Z",
+ "generated_at": "2026-08-07T17:08:24Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4348.1,
+  "price": 4336.86,
   "prev_close": 4240.215,
-  "change": 107.89,
-  "change_pct": 2.54
+  "change": 96.64,
+  "change_pct": 2.28
  },
  "analysis": {
-  "price": 4345.61,
+  "price": 4337.16,
   "trend_d1": "ranging",
-  "rsi14_d1": 71.8,
+  "rsi14_d1": 71.4,
   "macd_d1": {
-   "macd": 34.164,
-   "signal": 1.69,
-   "hist": 32.474
+   "macd": 33.49,
+   "signal": 1.556,
+   "hist": 31.934
   },
-  "ema20": 4119.48,
-  "ema50": 4143.59,
-  "ema200": 4394.33,
+  "ema20": 4118.68,
+  "ema50": 4143.25,
+  "ema200": 4394.25,
   "patterns": [
    {
     "name": "Doji",
@@ -129,7 +129,7 @@
     "tp2": 4138.52,
     "rr": 1.5,
     "confidence": 85,
-    "reason": "Resistance 4360.0 (3x) + harga di zona supply; Pola bearish: Three Black Crows; RSI overbought (71.8); Trend D1: ranging"
+    "reason": "Resistance 4360.0 (3x) + harga di zona supply; Pola bearish: Three Black Crows; RSI overbought (71.4); Trend D1: ranging"
    },
    {
     "side": "SELL_LIMIT",
@@ -139,7 +139,7 @@
     "tp2": 4189.01,
     "rr": 1.5,
     "confidence": 85,
-    "reason": "Resistance 4410.49 (4x) + harga di zona supply; Pola bearish: Three Black Crows; RSI overbought (71.8); Trend D1: ranging"
+    "reason": "Resistance 4410.49 (4x) + harga di zona supply; Pola bearish: Three Black Crows; RSI overbought (71.4); Trend D1: ranging"
    },
    {
     "side": "BUY_LIMIT",
@@ -153,7 +153,7 @@
    }
   ]
  },
- "ai_summary": "Berikut adalah analisis pasar emas:\n* Bias: Ranging\n* Level penting: \n + Support: 4210,54\n + Resistance: 4360,0 dan 4410,49\n* Peluang limit order: \n + SELL_LIMIT di 4360,0 dan 4410,49\n + BUY_LIMIT di 4210,54",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Ranging\n* Level penting: \n + Support: 4210,54\n + Resistance: 4360,0\n* Peluang limit order: \n + SELL_LIMIT di 4360,0\n + BUY_LIMIT di 4210,54",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -436,17 +436,10 @@
     "open": 4240.67481,
     "high": 4371.01145,
     "low": 4230.24215,
-    "close": 4345.6138
+    "close": 4337.1579
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-29 03:00:00",
-    "open": 4037.03356,
-    "high": 4041.22045,
-    "low": 4021.27995,
-    "close": 4028.58082
-   },
    {
     "datetime": "2026-07-29 07:00:00",
     "open": 4028.68301,
@@ -858,7 +851,14 @@
     "open": 4357.766,
     "high": 4367.35724,
     "low": 4328.62956,
-    "close": 4345.6138
+    "close": 4329.28519
+   },
+   {
+    "datetime": "2026-08-08 03:00:00",
+    "open": 4329.80834,
+    "high": 4337.57923,
+    "low": 4326.71361,
+    "close": 4337.1579
    }
   ]
  }
