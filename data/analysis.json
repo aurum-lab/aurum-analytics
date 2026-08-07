@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-08-07T12:24:58Z",
+ "generated_at": "2026-08-07T13:52:16Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
-  "price": 4311.17,
+  "price": 4355.15,
   "prev_close": 4240.215,
-  "change": 70.95,
-  "change_pct": 1.67
+  "change": 114.93,
+  "change_pct": 2.71
  },
  "analysis": {
-  "price": 4313.3,
+  "price": 4354.87,
   "trend_d1": "ranging",
-  "rsi14_d1": 70.1,
+  "rsi14_d1": 72.2,
   "macd_d1": {
-   "macd": 31.587,
-   "signal": 1.175,
-   "hist": 30.412
+   "macd": 34.902,
+   "signal": 1.838,
+   "hist": 33.064
   },
-  "ema20": 4116.41,
-  "ema50": 4142.32,
-  "ema200": 4394.01,
+  "ema20": 4120.37,
+  "ema50": 4143.95,
+  "ema200": 4394.42,
   "patterns": [
    {
     "name": "Doji",
@@ -124,36 +124,36 @@
    {
     "side": "SELL_LIMIT",
     "entry": 4360.0,
-    "sl": 4444.88,
-    "tp": 4232.68,
-    "tp2": 4147.8,
+    "sl": 4448.59,
+    "tp": 4227.11,
+    "tp2": 4138.52,
     "rr": 1.5,
     "confidence": 85,
-    "reason": "Resistance 4360.0 (3x) + harga di zona supply; Pola bearish: Three Black Crows; RSI overbought (70.1); Trend D1: ranging"
+    "reason": "Resistance 4360.0 (3x) + harga di zona supply; Pola bearish: Three Black Crows; RSI overbought (72.2); Trend D1: ranging"
    },
    {
     "side": "SELL_LIMIT",
     "entry": 4410.49,
-    "sl": 4495.37,
-    "tp": 4283.17,
-    "tp2": 4198.29,
+    "sl": 4499.08,
+    "tp": 4277.6,
+    "tp2": 4189.01,
     "rr": 1.5,
     "confidence": 85,
-    "reason": "Resistance 4410.49 (4x) + harga di zona supply; Pola bearish: Three Black Crows; RSI overbought (70.1); Trend D1: ranging"
+    "reason": "Resistance 4410.49 (4x) + harga di zona supply; Pola bearish: Three Black Crows; RSI overbought (72.2); Trend D1: ranging"
    },
    {
     "side": "BUY_LIMIT",
     "entry": 4210.54,
-    "sl": 4125.66,
-    "tp": 4337.86,
-    "tp2": 4422.74,
+    "sl": 4121.95,
+    "tp": 4343.43,
+    "tp2": 4432.02,
     "rr": 1.5,
     "confidence": 80,
     "reason": "Support 4210.54 (3x) + harga di zona permintaan; Pola bullish: Three White Soldiers, Three White Soldiers; Trend D1: ranging; MACD histogram positif"
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas XAU/USD:\n* Bias: Ranging\n* Level penting: \n + Support: 4210.54, 4115.81, 4022.46\n + Resistance: 4360.0, 4410.49, 4510.75\n* Peluang limit order: \n + SELL_LIMIT di 4360.0 dan 4410.49\n + BUY_LIMIT di 4210.54",
+ "ai_summary": "Berikut analisis pasar emas XAU/USD:\n* Bias: Ranging\n* Level penting: \n + Support: 4210.54, 4115.81, 4022.46\n + Resistance: 4360.0, 4410.49, 4510.75\n* Peluang limit order layak: \n + SELL_LIMIT di 4360.0 dan 4410.49\n + BUY_LIMIT di 4210.54",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -434,19 +434,12 @@
    {
     "datetime": "2026-08-07",
     "open": 4240.67481,
-    "high": 4327.69291,
+    "high": 4371.01145,
     "low": 4230.24215,
-    "close": 4313.30238
+    "close": 4354.86694
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-28 23:00:00",
-    "open": 4029.53001,
-    "high": 4046.8378,
-    "low": 4012.44894,
-    "close": 4037.01457
-   },
    {
     "datetime": "2026-07-29 03:00:00",
     "open": 4037.03356,
@@ -856,9 +849,16 @@
    {
     "datetime": "2026-08-07 19:00:00",
     "open": 4303.98955,
-    "high": 4327.69291,
+    "high": 4371.01145,
     "low": 4302.18292,
-    "close": 4313.30238
+    "close": 4357.1706
+   },
+   {
+    "datetime": "2026-08-07 23:00:00",
+    "open": 4357.766,
+    "high": 4367.35724,
+    "low": 4338.49994,
+    "close": 4354.86694
    }
   ]
  }
