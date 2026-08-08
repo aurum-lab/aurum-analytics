@@ -1,20 +1,27 @@
 {
- "generated_at": "2026-08-08T10:23:38Z",
+ "generated_at": "2026-08-08T11:02:27Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": null,
  "analysis": {
-  "price": 4342.22,
+  "price": 4342.35,
   "trend_d1": "ranging",
   "rsi14_d1": 71.6,
   "macd_d1": {
-   "macd": 46.975,
-   "signal": 10.709,
-   "hist": 36.266
+   "macd": 46.985,
+   "signal": 10.711,
+   "hist": 36.274
   },
-  "ema20": 4140.44,
-  "ema50": 4151.27,
+  "ema20": 4140.45,
+  "ema50": 4151.28,
   "ema200": 4403.32,
   "patterns": [
+   {
+    "name": "Doji",
+    "direction": "neutral",
+    "candle": "2026-08-08",
+    "strength": 1,
+    "price": 4342.35
+   },
    {
     "name": "Doji",
     "direction": "neutral",
@@ -42,13 +49,6 @@
     "candle": "2026-08-02",
     "strength": 1,
     "price": 4042.75
-   },
-   {
-    "name": "Three Black Crows",
-    "direction": "bearish",
-    "candle": "2026-08-01",
-    "strength": 2,
-    "price": 4042.74
    }
   ],
   "levels": {
@@ -148,7 +148,7 @@
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Ranging\n* Level penting: \n + Support: 4210,54, 4115,81, 4022,46\n + Resistance: 4360,0, 4410,49, 4510,75\n* Peluang limit order: \n + SELL LIMIT di 4360,0 dan 4410,49\n + BUY LIMIT di 4210,54",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Ranging\n* Level penting: Support 4210,54, Resistance 4360,0\n* Peluang limit order: SELL_LIMIT di 4360,0 atau BUY_LIMIT di 4210,54, dengan peringatan RSI overbought (71,6) dan trend ranging.",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -431,7 +431,7 @@
     "open": 4342.38579,
     "high": 4342.9167,
     "low": 4341.59684,
-    "close": 4342.22479
+    "close": 4342.34873
    }
   ],
   "4h": [
@@ -853,7 +853,7 @@
     "open": 4342.26044,
     "high": 4342.45531,
     "low": 4342.1624,
-    "close": 4342.22479
+    "close": 4342.34873
    }
   ]
  }
