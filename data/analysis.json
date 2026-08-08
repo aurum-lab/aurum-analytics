@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-08T08:58:33Z",
+ "generated_at": "2026-08-08T09:49:43Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
   "price": 4341.91,
@@ -8,13 +8,13 @@
   "change_pct": 2.4
  },
  "analysis": {
-  "price": 4342.33,
+  "price": 4342.34,
   "trend_d1": "ranging",
   "rsi14_d1": 71.6,
   "macd_d1": {
-   "macd": 46.983,
+   "macd": 46.984,
    "signal": 10.711,
-   "hist": 36.272
+   "hist": 36.273
   },
   "ema20": 4140.45,
   "ema50": 4151.28,
@@ -25,7 +25,7 @@
     "direction": "neutral",
     "candle": "2026-08-08",
     "strength": 1,
-    "price": 4342.33
+    "price": 4342.34
    },
    {
     "name": "Doji",
@@ -153,7 +153,7 @@
    }
   ]
  },
- "ai_summary": "Berikut adalah analisis pasar emas:\n* Bias: Ranging\n* Level penting: \n + Support: 4210,54, 4115,81, 4022,46\n + Resistance: 4360,0, 4410,49, 4510,75\n* Peluang limit order: \n + SELL_LIMIT di 4360,0 atau 4410,49\n + BUY_LIMIT di 4210,54",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Ranging\n* Level penting: \n + Support: 4210,54, 4115,81, 4022,46\n + Resistance: 4360,0, 4410,49, 4510,75\n* Peluang limit order: \n + SELL_LIMIT di 4360,0 atau 4410,49\n + BUY_LIMIT di 4210,54",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -436,17 +436,10 @@
     "open": 4342.38579,
     "high": 4342.9167,
     "low": 4341.59684,
-    "close": 4342.32564
+    "close": 4342.34237
    }
   ],
   "4h": [
-   {
-    "datetime": "2026-07-29 19:00:00",
-    "open": 4038.26985,
-    "high": 4038.26985,
-    "low": 4010.58795,
-    "close": 4022.05859
-   },
    {
     "datetime": "2026-07-29 23:00:00",
     "open": 4022.34351,
@@ -858,7 +851,14 @@
     "open": 4342.26859,
     "high": 4342.46336,
     "low": 4342.1624,
-    "close": 4342.32564
+    "close": 4342.35231
+   },
+   {
+    "datetime": "2026-08-08 19:00:00",
+    "open": 4342.26044,
+    "high": 4342.45531,
+    "low": 4342.1624,
+    "close": 4342.34237
    }
   ]
  }
