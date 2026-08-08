@@ -1,32 +1,20 @@
 {
- "generated_at": "2026-08-08T09:49:43Z",
+ "generated_at": "2026-08-08T10:23:38Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
- "spot": {
-  "price": 4341.91,
-  "prev_close": 4240.215,
-  "change": 101.69,
-  "change_pct": 2.4
- },
+ "spot": null,
  "analysis": {
-  "price": 4342.34,
+  "price": 4342.22,
   "trend_d1": "ranging",
   "rsi14_d1": 71.6,
   "macd_d1": {
-   "macd": 46.984,
-   "signal": 10.711,
-   "hist": 36.273
+   "macd": 46.975,
+   "signal": 10.709,
+   "hist": 36.266
   },
-  "ema20": 4140.45,
-  "ema50": 4151.28,
+  "ema20": 4140.44,
+  "ema50": 4151.27,
   "ema200": 4403.32,
   "patterns": [
-   {
-    "name": "Doji",
-    "direction": "neutral",
-    "candle": "2026-08-08",
-    "strength": 1,
-    "price": 4342.34
-   },
    {
     "name": "Doji",
     "direction": "neutral",
@@ -54,6 +42,13 @@
     "candle": "2026-08-02",
     "strength": 1,
     "price": 4042.75
+   },
+   {
+    "name": "Three Black Crows",
+    "direction": "bearish",
+    "candle": "2026-08-01",
+    "strength": 2,
+    "price": 4042.74
    }
   ],
   "levels": {
@@ -153,7 +148,7 @@
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Ranging\n* Level penting: \n + Support: 4210,54, 4115,81, 4022,46\n + Resistance: 4360,0, 4410,49, 4510,75\n* Peluang limit order: \n + SELL_LIMIT di 4360,0 atau 4410,49\n + BUY_LIMIT di 4210,54",
+ "ai_summary": "Berikut analisis pasar emas:\n* Bias: Ranging\n* Level penting: \n + Support: 4210,54, 4115,81, 4022,46\n + Resistance: 4360,0, 4410,49, 4510,75\n* Peluang limit order: \n + SELL LIMIT di 4360,0 dan 4410,49\n + BUY LIMIT di 4210,54",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -436,7 +431,7 @@
     "open": 4342.38579,
     "high": 4342.9167,
     "low": 4341.59684,
-    "close": 4342.34237
+    "close": 4342.22479
    }
   ],
   "4h": [
@@ -858,7 +853,7 @@
     "open": 4342.26044,
     "high": 4342.45531,
     "low": 4342.1624,
-    "close": 4342.34237
+    "close": 4342.22479
    }
   ]
  }
