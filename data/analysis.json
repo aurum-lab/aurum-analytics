@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-08T07:12:49Z",
+ "generated_at": "2026-08-08T08:04:05Z",
  "source": "Twelve Data + GoldAPI (GitHub Actions)",
  "spot": {
   "price": 4341.91,
@@ -153,7 +153,7 @@
    }
   ]
  },
- "ai_summary": "Berikut analisis pasar emas:\n* Bias: Ranging\n* Level penting: \n + Support: 4210,54\n + Resistance: 4360,0\n* Peluang limit order: \n + Sell limit di 4360,0\n + Buy limit di 4210,54",
+ "ai_summary": "Berikut adalah analisis pasar emas:\n* Bias: Ranging\n* Level penting: \n + Support: 4210,54\n + Resistance: 4360,0\n* Peluang limit order: \n + SELL_LIMIT di 4360,0\n + BUY_LIMIT di 4210,54",
  "ai_model": "Groq llama-3.3-70b-versatile",
  "disclaimer": "Analisa teknis otomatis, bukan saran finansial.",
  "chart": {
@@ -436,7 +436,7 @@
     "open": 4342.38579,
     "high": 4342.9167,
     "low": 4341.59684,
-    "close": 4342.25002
+    "close": 4342.24624
    }
   ],
   "4h": [
@@ -856,9 +856,9 @@
    {
     "datetime": "2026-08-08 15:00:00",
     "open": 4342.26859,
-    "high": 4342.46307,
-    "low": 4342.19618,
-    "close": 4342.25002
+    "high": 4342.46336,
+    "low": 4342.1624,
+    "close": 4342.24624
    }
   ]
  }
